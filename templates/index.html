@@ -1,0 +1,24 @@
+<! Doctype html>
+<html>
+    <head>
+        <title>
+            Daily Quotes
+        </title>
+        <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class ="main_header">
+                    <div class="header">Daily quotes</div> 	
+                <div class="date">{{date}}</div>
+            </div>
+            <div class="pad">
+                    <div class="quote">{{quote}}</div>
+            </div>
+                <div class="author">{{author}}</div>
+            <div class="creator">
+                     <p>BY CEO1 </p>
+            </div>
+        </div>
+    </body>
+</html>
