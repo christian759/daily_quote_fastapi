@@ -3,4 +3,5 @@ requests
 beautifulsoup4
 bs4
 pydantic
+Jinja2
 uvicorn
